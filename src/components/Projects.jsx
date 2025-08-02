@@ -51,10 +51,10 @@ const featuredProjects = [
   },
 
   {
-    title: "Análisis de Datos",
+    title: "Analisis RFM de Clientes para eCommerce",
     description:
-      "Proyecto completo de analítica con SQL, Power BI y Python. (Próximamente en GitHub)",
-    repo: "",
+      "Proyecto completo de analítica con SQL, Power BI y Python.",
+    repo: "https://github.com/AndresBaldeonMora/An-lisis-RFM-de-Clientes-para-eCommerce",
     demo: "",
     tools: [
       { icon: <FaPython />, name: "Python" },
