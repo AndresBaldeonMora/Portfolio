@@ -31,7 +31,6 @@ const Header = () => {
 
   return (
     <>
-      {/* Navbar */}
       <Navbar
         expand="lg"
         variant="dark"
@@ -50,7 +49,6 @@ const Header = () => {
             className="fw-bold fs-4 text-white mx-auto mx-lg-0"
             style={{ textAlign: "center" }}
           >
-            Andrés
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="main-navbar" />

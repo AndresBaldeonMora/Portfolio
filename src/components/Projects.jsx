@@ -16,9 +16,8 @@ import {
   FaDatabase,
 } from "react-icons/fa";
 import { SiBootstrap, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
-import { BiBarChartAlt2 } from "react-icons/bi"; // Usado como Power BI
+import { BiBarChartAlt2 } from "react-icons/bi"; 
 
-// Utilidad para mostrar tooltips con nombre de herramienta
 const ToolIcon = ({ icon, name }) => (
   <OverlayTrigger placement="top" overlay={<Tooltip>{name}</Tooltip>}>
     <span style={{ fontSize: "1.25rem" }}>{icon}</span>
@@ -106,7 +105,6 @@ const Projects = () => {
                     {project.description}
                   </Card.Text>
 
-                  {/* Herramientas usadas */}
                   {project.tools.length > 0 && (
                     <div className="d-flex gap-3 mt-3 text-info flex-wrap">
                       {project.tools.map((tool, iconIdx) => (

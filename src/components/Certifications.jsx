@@ -4,7 +4,6 @@ import { Container, Card, Button } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// Lista de certificaciones
 const certifications = [
   {
     title: "SQL Total – Domina Bases de Datos de 0 a Avanzado",
@@ -26,14 +25,14 @@ const certifications = [
 
 const Certifications = () => {
   const settings = {
-    dots: true, // Puntitos abajo
+    dots: true, 
     infinite: true,
     speed: 500,
-    slidesToShow: 2, // Muestra 2 por vez en PC
+    slidesToShow: 2, 
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768, // En móvil
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },
