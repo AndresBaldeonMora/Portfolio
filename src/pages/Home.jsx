@@ -82,7 +82,6 @@ const Home = () => {
                 </OverlayTrigger>
               </div>
 
-              {/* Contacto visible */}
               <div
                 className="text-white mt-2"
                 style={{ fontWeight: 300, fontSize: "0.95rem" }}
@@ -97,7 +96,6 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* Skills */}
               <div className="d-flex align-items-center mb-3">
                 <h5 className="text-uppercase text-info me-2 mb-0">Skills</h5>
               </div>
@@ -120,7 +118,6 @@ const Home = () => {
                 ))}
               </div>
 
-              {/* Idiomas */}
               <div className="mt-4">
                 <p
                   style={{
@@ -132,21 +129,8 @@ const Home = () => {
                   Español (nativo) · Inglés (intermedio)
                 </p>
               </div>
-
-              {/* Botón de descarga de CV */}
-              <div className="mt-3">
-                <Button
-                  variant="outline-light"
-                  href="/cv-miguel-andres.pdf"
-                  download
-                  size="sm"
-                >
-                  Descargar CV
-                </Button>
-              </div>
             </Col>
 
-            {/* Columna derecha */}
             <Col xs={12} md={8}>
               <h1 className="fw-bold mb-2">Miguel Andrés Baldeón Mora</h1>
               <h5 className="text-uppercase mb-3 text-white-50">
@@ -155,27 +139,24 @@ const Home = () => {
               <p className="mb-3">📍 Lima, Perú</p>
 
               <p className="lead">
-                Apasionado por el análisis de datos, la visualización y la
-                tecnología. Me destaco por trabajar con herramientas como{" "}
-                <strong>Power BI</strong>, <strong>SQL</strong> y{" "}
-                <strong>Python</strong> para construir dashboards, reportes y
-                soluciones que impulsen decisiones estratégicas.
+                Apasionado por el análisis y visualización de datos. Trabajo con
+                herramientas como <strong>Power BI</strong>,{" "}
+                <strong>SQL</strong> y <strong>Python</strong> para crear
+                dashboards y reportes que apoyen decisiones estratégicas.
               </p>
 
               <p className="fs-5 mt-4">
-                Estoy entusiasmado por colaborar, seguir aprendiendo y aportar
-                valor a cualquier equipo o proyecto que me dé la oportunidad de
-                crecer como profesional.
+                Aunque no cuento con experiencia laboral formal, estoy muy
+                entusiasmado por aplicar mis conocimientos y crecer
+                profesionalmente en cualquier oportunidad que se me presente.
               </p>
 
               <p style={{ fontWeight: 300 }}>
-                Me considero autodidacta, organizado y con mucha iniciativa.
-                Estoy convencido de que el trabajo constante, la buena
-                comunicación y la humildad son clave para lograr resultados y
-                generar impacto con los datos.
+                Me considero autodidacta, organizado y con iniciativa. Creo en
+                la constancia, buena comunicación y humildad para lograr
+                resultados.
               </p>
 
-              {/* Educación */}
               <div className="mt-4">
                 <h5 className="text-uppercase text-info mb-2">Educación</h5>
                 <p style={{ fontWeight: 300, fontSize: "0.95rem" }}>
