@@ -41,7 +41,7 @@ const Home = () => {
             >
               <div className="profile-wrapper mx-auto mx-md-0 mb-3">
                 <Image
-                  src="/profile.jpg"
+                  src="/profile.png"
                   alt="Miguel Andrés"
                   className="profile-img shadow"
                   roundedCircle
