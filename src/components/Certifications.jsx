@@ -21,14 +21,35 @@ const certifications = [
       "Visualización de datos y desarrollo de dashboards empresariales.",
     link: "https://www.udemy.com/certificate/UC-0ad89183-e090-46c7-a5cf-c0e0fcfeddc9/",
   },
+  {
+    title: "Machine Learning con Python",
+    platform: "Universidad Nacional de Ingeniería",
+    date: "Ago 2025",
+    description: "Fundamentos de Machine Learning con Python.",
+    link: "https://certificados.uni.edu.pe/verificador/search.php?cert_id=cert_17c0aeb082655395d3574981ed292932",
+  },
+  {
+    title: "Scrum Fundamentals Certified (SFC)",
+    platform: "VABRO.AI / VMEDU",
+    date: "Sept. 2025",
+    description: "Fundamentos de Scrum para gestión ágil de proyectos.",
+    link: "https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-AndresBaldeon-1102093.pdf",
+  },
+  {
+    title: "Scrum for Ops and DevOps Fundamentals Certified (SODFC)",
+    platform: "VABRO.AI / VMEDU",
+    date: "Sept. 2025",
+    description: "Scrum aplicado a Operaciones y DevOps.",
+    link: "https://www.scrumstudy.com/certification/verify?type=SODFC&number=1102101",
+  },
 ];
 
 const Certifications = () => {
   const settings = {
-    dots: true, 
+    dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2, 
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {

@@ -18,8 +18,8 @@ const skills = [
   "Excel",
   "Git",
   "AWS",
+  "Azure",
   "React",
-  "Word",
 ];
 
 const Home = () => {
@@ -41,7 +41,7 @@ const Home = () => {
             >
               <div className="profile-wrapper mx-auto mx-md-0 mb-3">
                 <Image
-                  src="/profile.png"
+                  src="../public/profile.png"
                   alt="Miguel Andrés"
                   className="profile-img shadow"
                   roundedCircle
@@ -71,7 +71,7 @@ const Home = () => {
                   overlay={<Tooltip id="cv-tooltip">CV</Tooltip>}
                 >
                   <a
-                    href="https://drive.google.com/file/d/1lTSVJ6xAuH3f0RX_jQVGatekH7IsCV5k/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1vWNLi9cm5alX9o7HvMZiDBtpGyzXFqOQ/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     className="text-danger"
@@ -132,29 +132,27 @@ const Home = () => {
             </Col>
 
             <Col xs={12} md={8}>
-              <h1 className="fw-bold mb-2">Miguel Andrés Baldeón Mora</h1>
+              <h1 className="fw-bold mb-2">Andrés Baldeón</h1>
               <h5 className="text-uppercase mb-3 text-white-50">
                 Estudiante de Ingeniería Informática · Practicante Data Analyst
               </h5>
               <p className="mb-3">📍 Lima, Perú</p>
 
               <p className="lead">
-                Apasionado por el análisis y visualización de datos. Trabajo con
-                herramientas como <strong>Power BI</strong>,{" "}
-                <strong>SQL</strong> y <strong>Python</strong> para crear
-                dashboards y reportes que apoyen decisiones estratégicas.
-              </p>
-
-              <p className="fs-5 mt-4">
-                Aunque no cuento con experiencia laboral formal, estoy muy
-                entusiasmado por aplicar mis conocimientos y crecer
-                profesionalmente en cualquier oportunidad que se me presente.
+                Apasionado por el análisis de datos, con experiencia trabajando
+                con herramientas como <strong>Power BI</strong>,{" "}
+                <strong>SQL</strong>, <strong>Python</strong> y{" "}
+                <strong>R</strong>. Actualmente, soy practicante universitario
+                en la Universidad Ricardo Palma, donde desarrollo dashboards,
+                limpio datasets y colaboro en el diseño de soluciones
+                tecnológicas.
               </p>
 
               <p style={{ fontWeight: 300 }}>
-                Me considero autodidacta, organizado y con iniciativa. Creo en
-                la constancia, buena comunicación y humildad para lograr
-                resultados.
+                Me considero autodidacta, organizado y con una fuerte
+                orientación a resultados. Soy un firme creyente en la
+                importancia de la constancia, la comunicación efectiva y la
+                humildad para el logro de objetivos profesionales.
               </p>
 
               <div className="mt-4">

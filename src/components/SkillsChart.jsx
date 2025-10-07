@@ -17,23 +17,21 @@ const skills = [
   { name: "Python", level: "Intermedio" },
   { name: "Power BI", level: "Avanzado" },
   { name: "Excel", level: "Avanzado" },
-  { name: "PowerPoint", level: "Intermedio" },
   { name: "Tableau", level: "Intermedio" },
-  { name: "Git", level: "Intermedio" },
   { name: "React", level: "Intermedio" },
   { name: "AWS", level: "Básico" },
 ];
 
-// Colores según nivel
+// Colores según nivel (invertidos)
 const getColor = (level) => {
   switch (level) {
     case "Avanzado":
-      return "#00e676";
+      return "#ff0000"; // Rojo para "Avanzado"
     case "Intermedio":
-      return "#ffea00";
+      return "#ffea00"; // Amarillo para "Intermedio"
     case "Básico":
     default:
-      return "#ff5252";
+      return "#00e676"; // Verde para "Básico"
   }
 };
 
@@ -112,9 +110,9 @@ const SkillsChart = () => {
       <h2 className="text-center text-white mb-4">Nivel de habilidades</h2>
 
       <div className="d-flex justify-content-center gap-4 mb-3">
-        <span style={{ color: "#ff5252" }}>🟥 Básico</span>
+        <span style={{ color: "#00e676" }}>🟩 Básico</span>
         <span style={{ color: "#ffea00" }}>🟨 Intermedio</span>
-        <span style={{ color: "#00e676" }}>🟩 Avanzado</span>
+        <span style={{ color: "#ff0000" }}>🟥 Avanzado</span>
       </div>
 
       <div style={{ maxWidth: "800px", margin: "0 auto" }}>
