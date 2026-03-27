@@ -53,7 +53,7 @@ const Home = () => {
 
               <div className="d-flex justify-content-center justify-content-md-start align-items-center gap-3 mb-2 fs-4">
                 <a
-                  href="https://www.linkedin.com/in/miguel-andres-baldeon-mora-77a428372/"
+                  href="https://www.linkedin.com/in/andres-baldeon-mora-77a428372/"
                   target="_blank"
                   rel="noreferrer"
                   className="text-white"
