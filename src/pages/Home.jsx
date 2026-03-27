@@ -11,15 +11,17 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import { motion } from "framer-motion";
 
 const skills = [
-  "SQL",
+  "C#",
+  "WPF / MVVM",
   "Python",
+  "SQL",
+  "R",
   "Power BI",
-  "Tableau",
-  "Excel",
+  "pandas",
   "Git",
+  "Web Scraping",
   "AWS",
   "Azure",
-  "React",
 ];
 
 const Home = () => {
@@ -134,25 +136,23 @@ const Home = () => {
             <Col xs={12} md={8}>
               <h1 className="fw-bold mb-2">Andrés Baldeón</h1>
               <h5 className="text-uppercase mb-3 text-white-50">
-                Estudiante de Ingeniería Informática · Practicante Data Analyst
+                Practicante Pre-Profesional · Desarrollo de Software
               </h5>
               <p className="mb-3">📍 Lima, Perú</p>
-
               <p className="lead">
-                Apasionado por el análisis de datos, con experiencia trabajando
-                con herramientas como <strong>Power BI</strong>,{" "}
-                <strong>SQL</strong>, <strong>Python</strong> y{" "}
-                <strong>R</strong>. Actualmente, soy practicante universitario
-                en la Universidad Ricardo Palma, donde desarrollo dashboards,
-                limpio datasets y colaboro en el diseño de soluciones
-                tecnológicas.
+                Estudiante de Ingeniería Informática (10.° ciclo, URP) con
+                experiencia práctica en desarrollo de software empresarial y
+                análisis de datos. En <strong>Stantec</strong> desarrollo
+                aplicaciones de escritorio con <strong>C# / WPF (MVVM)</strong>,
+                automatizo procesos con <strong>Python</strong> y gestiono bases
+                de datos con <strong>SQL</strong> en proyectos para clientes del
+                sector minero e institucional.
               </p>
-
               <p style={{ fontWeight: 300 }}>
-                Me considero autodidacta, organizado y con una fuerte
-                orientación a resultados. Soy un firme creyente en la
-                importancia de la constancia, la comunicación efectiva y la
-                humildad para el logro de objetivos profesionales.
+                Previamente en la <strong>Universidad Ricardo Palma</strong>{" "}
+                apliqué Python (pandas), R y SQL al procesamiento de datos en
+                proyectos académicos de investigación biológica. Certificado en
+                Machine Learning, Power BI avanzado, SQL avanzado y Scrum.
               </p>
 
               <div className="mt-4">
@@ -160,9 +160,9 @@ const Home = () => {
                 <p style={{ fontWeight: 300, fontSize: "0.95rem" }}>
                   <strong>Universidad Ricardo Palma</strong>
                   <br />
-                  Estudiante de Ingeniería Informática — 9.º ciclo
+                  Ingeniería Informática — 10.° Ciclo
                   <br />
-                  Ingreso: 2021-II · Culminación estimada: 2026-I
+                  Ago. 2021 – Est. Ago. 2026
                 </p>
               </div>
             </Col>

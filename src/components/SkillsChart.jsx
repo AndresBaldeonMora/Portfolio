@@ -13,12 +13,13 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip);
 
 // Datos con niveles categóricos
 const skills = [
+  { name: "C#", level: "Intermedio" },
+  { name: "WPF / MVVM", level: "Intermedio" },
   { name: "SQL", level: "Avanzado" },
   { name: "Python", level: "Intermedio" },
   { name: "Power BI", level: "Avanzado" },
-  { name: "Excel", level: "Avanzado" },
-  { name: "Tableau", level: "Intermedio" },
-  { name: "React", level: "Intermedio" },
+  { name: "R / RStudio", level: "Básico" },
+  { name: "Web Scraping", level: "Intermedio" },
   { name: "AWS", level: "Básico" },
 ];
 
