@@ -73,7 +73,7 @@ const Home = () => {
                   overlay={<Tooltip id="cv-tooltip">CV</Tooltip>}
                 >
                   <a
-                    href="https://drive.google.com/file/d/1vWNLi9cm5alX9o7HvMZiDBtpGyzXFqOQ/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1xHFQAELgjs1P-CHsRy2Zc6-Bdz7CMLgr/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     className="text-danger"
